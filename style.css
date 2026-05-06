@@ -39,7 +39,7 @@ nav ul li a {
 /* HERO */
 .hero {
     height: 100vh;
-    background: url('banner.jpg') no-repeat center/cover;
+    background: url('banner.jpeg') no-repeat center/cover;
     position: relative;
 }
 
@@ -154,7 +154,7 @@ nav ul li a {
 /* PAGE HEADER */
 .page-header {
     height: 300px;
-    background: url('banner.jpg') no-repeat center/cover;
+    background: url('banner.jpeg') no-repeat center/cover;
     position: relative;
 }
 
