@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #0a192f;
+    color: white;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #020c1b;
+}
+
+nav h2 {
+    color: gold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: url('banner.jpg') no-repeat center/cover;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+}
+
+.hero-content {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hero h1 {
+    font-size: 45px;
+    color: gold;
+}
+
+.hero h3 {
+    font-weight: 300;
+}
+
+.tagline {
+    margin: 10px 0;
+}
+
+.skills {
+    margin: 10px 0;
+    color: #ccc;
+}
+
+.real-estate {
+    margin: 10px 0;
+    color: #aaa;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 25px;
+    background: gold;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* SERVICES */
+.services {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    color: gold;
+    margin-bottom: 30px;
+}
+
+.service-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: #112240;
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+/* PROJECTS */
+.projects {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.projects h2 {
+    color: gold;
+    margin-bottom: 30px;
+}
+
+.project-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-card {
+    background: #112240;
+    margin: 15px;
+    padding: 20px;
+    width: 220px;
+    border-radius: 10px;
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+    padding: 50px;
+}
+
+.whatsapp {
+    background: #25D366;
+    color: white;
+}
+/* PAGE HEADER */
+.page-header {
+    height: 300px;
+    background: url('banner.jpg') no-repeat center/cover;
+    position: relative;
+}
+
+.page-header .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+}
+
+.header-content {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header-content h1 {
+    font-size: 40px;
+    color: gold;
+}
+
+.header-content p {
+    color: #ccc;
+}
+
+/* BREADCRUMB */
+.breadcrumb {
+    background: #0a192f;
+    padding: 10px 50px;
+}
+
+.breadcrumb a {
+    color: gold;
+    text-decoration: none;
+}
+
+/* SERVICES PAGE */
+.services-page {
+    padding: 60px 20px;
+}
+
+.service-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-card {
+    background: #112240;
+    margin: 15px;
+    padding: 30px;
+    width: 280px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+/* PROJECT PAGE */
+.projects-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.projects-section h2 {
+    color: gold;
+    margin-bottom: 30px;
+}
+
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-card {
+    background: #112240;
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.project-card span {
+    display: block;
+    margin-top: 10px;
+    color: gold;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+/* CONTACT PAGE */
+.contact-page {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 20px;
+    justify-content: center;
+}
+
+.contact-info {
+    width: 300px;
+    margin: 20px;
+}
+
+.contact-info h2 {
+    color: gold;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-form {
+    width: 350px;
+    margin: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background: gold;
+    border: none;
+    cursor: pointer;
+}
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    font-size: 28px;
+    padding: 15px 18px;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
+/* ABOUT PAGE */
+.about-section {
+    padding: 60px 20px;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-image img {
+    width: 250px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.about-content {
+    max-width: 500px;
+    margin: 20px;
+}
+
+.about-content h2 {
+    color: gold;
+}
+
+.highlight {
+    color: #ccc;
+    margin: 10px 0;
+}
+
+/* SKILLS */
+.skills {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.skills h2 {
+    color: gold;
+    margin-bottom: 30px;
+}
+
+.skills-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-card {
+    background: #112240;
+    margin: 10px;
+    padding: 15px 25px;
+    border-radius: 8px;
+}
